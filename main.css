@@ -9,6 +9,7 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    width: 100vw;
     background-color:  hsla(200, 100%, 50%, .5);
     background-image: url("images/nabeel-syed-Jk3-Uhdwjcs-unsplash.jpg");
     background-blend-mode: multiply;
