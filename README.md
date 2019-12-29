@@ -5,6 +5,9 @@ This form page is an exercise for [The Free Code Camp](https://www.freecodecamp.
 This is the header and the first few fields of the survey. The background was achieved by blending a color with the image.
 ![top of page](images/1top-form.png)
 
+This is the dropdown menu, dropping down:
+![dropdown](images/dropdown.png)
+
 These are the rest of the fields.
 ![bottom of page](images/2bottom-form.png)
 
