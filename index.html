@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Acme|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Form Page</title>
+</head>
+<body>
+<main id="main-container" class="main-container">
+  <header id="main-header" class="main-header">
+    <h1 id="title" class="main-title">Traffic Survey</h1>
+    <p id="description" class="header-description">Do YOU have a ticket to ride?</p>
+  </header>
+  <div class="form-wrapper">
+    <div class="input-wrapper">
+      <form id="survey-form" class="survey-form">
+         <div class="input-element">
+        <label for="name" id="name-label" class="input-element-label" value="name">Name</label>
+        <input id="name" class="input" type="text" placeholder="What is your name?" required>
+    </div>
+    <div class="input-element">
+       <label for="email" id="email-label" class="input-element-label" value="email">Email</label>
+       <input id="email" class="input" type="email" placeholder="What is your email?" required>
+    </div>
+    <div class="input-element">
+       <label for="age" id="number-label" class="input-element-label" value="age">Age (optional)</label>
+        <input id="number" class="input age-input" type="number" maxlength="3" min="0" max="150" placeholder="What is your age?">
+    </div>
+    <div class="input-element">
+       <label for="drive" id="drive-label" class="input-element-label" value="drive">Do you drive?</label>
+      <div class="input-element radio-div">
+       <input fieldset id="drive" type="radio" name="drive" value="yes">Yes<br>
+       <input fieldset id="drive" type="radio" name="drive" value="yes">No<br>
+      </div>
+    </div>
+  <div class="input-element">
+       <label for="law" id="law-label" class="input-element-label" value="law">Do you approve of traffic laws?</label>
+    <div class="input-element radio-div">
+        <input fieldset id="law" type="radio" name="law" value="yes">Yes<br>
+       <input fieldset id="law" type="radio" name="law" value="no">No<br>
+      <input fieldset id="law" type="radio" name="law" value="sometimes">Sometimes<br>
+    </div>
+   </div>
+  <div class="input-element">
+     <label for="dropdown" id="driver-dropdown label" class="input-element-label">What type of driver are you?</label>
+    <select id="dropdown" name="driver-dropdown-menu">
+      <option label="Most Safe" value="safe"/>
+      <option label="Defensive" value="defensive"/>
+      <option label="Problem" value="problem"/>
+      <option label="Offensive" value="Offensive"/>
+      <option label="Watch Out" value="watch-out"/>
+    </select>
+   </div>
+  <div class="input-element">
+    <label for="checkbox" id="checkbox-label" class="input-element-label">Please Check All That Apply</label>
+    <div class="input-element checkbox-div">
+  <label class="checkbox-label">
+    <input type="checkbox" name="drivetype1" value="no-stop">I feel that stop signs are merely suggestions</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivetype2" value="no-traffic-light">I feel that colored lights should only be for Christmas</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype3" value="lots-of-space">I always leave a car length and a half between myself and the driver in front of me</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype4" value="speed">I feel that a vehicles speed should only be limited by the amount of fuel in the tank</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype5" value="caution">I feel that one should always be on the lookout for bicyclists and pedestrians</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype6" value="points">I feel that one should always be on the lookout for bicyclists and pedestrians in order to get points</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype7" value="brake">I am grateful for my well maintained brakes</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype8" value="no-brake">I never use my brakes</label>
+   <label class="checkbox-label">
+    <input type="checkbox" name="drivertype9" value="passengers">People ride with me more than once</label>
+    </div>
+    </div>
+  <div class="input-element">
+    <label for="describe-driver" id="textarea-label" class="input-element-label">Describe yourself as a driver in under 300 characters</label>
+    <textarea id="textarea" class="input-element textarea" maxlength="300"></textarea>
+  </div>
+    <div class="input-element submit-btn-div">
+    <button type="submit" id="submit" class="btn submit-btn">Submit</button>
+  </div>
+  </form>
+  </div>
+  </div>
+<footer class="main-footer">
+</footer>
+</main>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
