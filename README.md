@@ -9,6 +9,6 @@ These are the rest of the fields.
 ![bottom of page](images/2bottom-form.png)
 
 ...And this is the big red submit button!
-![submit button](images\3submit-btn.png)
+![submit button](images/3submit-btn.png)
 
 This form page is [published on Git Hub](https://martucazpo.github.io/FCC-form-page/) and on [CodePen](https://codepen.io/martucazpo/pen/wvBeyzz).
